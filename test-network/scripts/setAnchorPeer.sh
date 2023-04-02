@@ -26,6 +26,12 @@ createAnchorPeerUpdate() {
   elif [ $ORG -eq 3 ]; then
     HOST="peer0.org3.example.com"
     PORT=11051
+  elif [ $ORG -eq 3 ]; then
+    HOST="peer0.org4.example.com"
+    PORT=12051
+  elif [ $ORG -eq 3 ]; then
+    HOST="peer0.org5.example.com"
+    PORT=13051
   else
     errorln "Org${ORG} unknown"
   fi
