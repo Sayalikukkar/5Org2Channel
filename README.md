@@ -15,12 +15,14 @@
 **Editing YAML file**
 
 * As like **test-network/organization/fabric-ca/org2/fabric-ca-server-config.yaml** create another new folder **"fabric-ca-server-config.yaml"** and replace all the org fields with org3, org4 and org5.
-
-_test-network/organizations/fabric-ca/org3/fabric-ca-server-config.yaml_
+ ```bash
+   test-network/organizations/fabric-ca/org3/fabric-ca-server-config.yaml
+ ```
 
 * create another new file **“crypto-config-org3.yaml”** (create same for org4 and org5).
-
-_test-network-/organizations/cryptogen/crypto-config-org3.yaml_
+ ```bash
+   test-network-/organizations/cryptogen/crypto-config-org3.yaml
+ ```
 
 * Then edit configtx.yaml by adding adding &org3, &org4, &org5 below the &org2.
 
